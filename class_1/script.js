@@ -14,7 +14,7 @@ console.log(name, surname);
 
 
 
-// Test 1.  Make two variables, myName and  age then use Console log to execute "Hi my name is "name", and i am "age" old.
+//  Test 1.  Make two variables, myName and  age then use Console log to execute "Hi my name is "name", and i am "age" old.
 
 let myName = "Milos";
 let age = 36;
