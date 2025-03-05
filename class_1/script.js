@@ -54,7 +54,7 @@ console.log(sum);
 // Homework, Make array with three items, Racunar, Tastatura, mis
 // Array, kind of variable, but can hold more values
 
-const computers = ["Racunar", "Tastatura", "Mis"];  // Array, create array with const and values write inside []
+const computers = ["Racunar", "Tastatura", "Mis"];  // Array, create array with const or let  and values write inside []
 
 console.log(computers);
 
