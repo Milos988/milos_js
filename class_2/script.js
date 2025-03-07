@@ -48,7 +48,7 @@ console.log(cars); // now log is Audi, Ford, Mercedes
 
 
 
-// OBJECTS
+// OBJECTS   ,
 // Similar to array but with defined structure, create with let prefix and {}
 
 let personalID = {
