@@ -21,7 +21,7 @@ console.log(name, surname);
 
 // Numbers
 
-let height = 187.5; // Float > decimal number 
+let height = 187.5; // Float > decimal number
 
 //Boolean
 let isProgrammer = true; // BOOLEAN (BOOL) > true (1) / false (0)
