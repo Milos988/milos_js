@@ -1,6 +1,6 @@
 
 // array has Index and values, idex always start with 0 (zero)
-//               0>brad  1>milk   2>jogurt
+//               0>bread  1>milk   2>jogurt
 let products = ["bread", "milk", "jogurt"]; // creat array, array is like variable but more like a list, can hold more values
 
 console.log(products);
