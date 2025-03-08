@@ -32,7 +32,7 @@ console.log(products);
 let cars = ["Bmw", "Audi", "Mercedes"];
 console.log(cars);
 
-//Replace index any index value with another one
+//Replace any index value with another one
 
 cars[0] = "Ford"; // now we call array cars index [0] = and give a new values
 console.log(cars);  // now in log we have  Ford, Audi, Mercedes, we can always change in code values for any index of array, like for any other variable
@@ -57,10 +57,10 @@ let personalID = {
 	dateOfBirth: "29/08/1988",
 }
 
-console.log(personalID.name, personalID.dateOfBirth);  // if we want o log specific key, we use the name of object and keu 'personalID.dateOfBirth'
-console.log(personalID);  // to slog all keys at the same time
+console.log(personalID.name, personalID.dateOfBirth);  // if we want o log specific key, we use the name of object and key 'personalID.dateOfBirth'
+console.log(personalID);  // to log all keys at the same time
 
-// TEst 4. in object personalID add new key Height and values 196.5
+// Test 4. in object personalID add new key Height and values 196.5
 
 personalID.height = 196.5; // just call existing object and add new key and values object.newKey = values;
 console.log(personalID);
