@@ -1,6 +1,6 @@
 
 // array has Index and values, idex always start with 0 (zero)
-//               0>brad  1>milk   2>jogurt
+//               0>bread  1>milk   2>jogurt
 let products = ["bread", "milk", "jogurt"]; // creat array, array is like variable but more like a list, can hold more values
 
 console.log(products);
@@ -32,7 +32,7 @@ console.log(products);
 let cars = ["Bmw", "Audi", "Mercedes"];
 console.log(cars);
 
-//Replace index any index value with another one
+//Replace any index value with another one
 
 cars[0] = "Ford"; // now we call array cars index [0] = and give a new values
 console.log(cars);  // now in log we have  Ford, Audi, Mercedes, we can always change in code values for any index of array, like for any other variable
@@ -58,10 +58,10 @@ let personalID = {
 	hobbies: ["programming", "teaching", "fishing"],  // more than one value  for one key
 }
 
-console.log(personalID.name, personalID.dateOfBirth);  // if we want o log specific key, we use the name of object and keu 'personalID.dateOfBirth'
-console.log(personalID);  // to slog all keys at the same time
+console.log(personalID.name, personalID.dateOfBirth);  // if we want o log specific key, we use the name of object and key 'personalID.dateOfBirth'
+console.log(personalID);  // to log all keys at the same time
 
-// TEst 4. in object personalID add new key Height and values 196.5
+// Test 4. in object personalID add new key Height and values 196.5
 
 personalID.height = 196.5; // just call existing object and add new key and values object.newKey = values;
 console.log(personalID);
