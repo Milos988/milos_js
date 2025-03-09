@@ -55,6 +55,7 @@ let personalID = {
 	name: "Milos",     // name is KEY, Milos is Value
 	lastName: "Nikolic",
 	dateOfBirth: "29/08/1988",
+	hobbies: ["programming", "teaching", "fishing"],  // more than one value  for one key
 }
 
 console.log(personalID.name, personalID.dateOfBirth);  // if we want o log specific key, we use the name of object and keu 'personalID.dateOfBirth'
@@ -66,3 +67,59 @@ personalID.height = 196.5; // just call existing object and add new key and valu
 console.log(personalID);
 
 console.log(personalID['name'], personalID.name); // two exactly the same way to pull data
+
+// Test 5.   from personalID pull and print in console.log  data programming  from hobbies
+
+console.log(personalID.hobbies[0]); // from personalID.hobbies print index 0  [0]
+
+
+// Test 6. make new variable "sentence" and use indexes from personalID object like name and hobbies to look like ""NAME has gone HOBBIES"
+
+let sentence = personalID.name + " has gone " + personalID.hobbies[0]; // variable has value of personalID.name + our text of choice + personalID.hobbies[0] index 0
+
+console.log(sentence);
+
+//Homework
+/**
+ *  make object SHOP
+ *  shop has name, products (list of products), openingHours, closingHours
+ */
+
+let shop = {
+	name: "Online Shop",
+	products: ["Notebook", "Desktop", "Speakers", "Mouse", "Keyboard"],
+	openingHours: "09:00",
+	closingHours: "19:00",
+}
+
+console.log(shop);
+
+
+
+// Test 7. make empty array 'names' and find the way how to insert three values later
+
+let names = [];
+
+console.log(names);
+
+names.push("Milos", "Marko", "Jovan");
+
+console.log(names);
+
+//test 8.  make array components and add three  values, find way how to delete them all from array
+
+let components = ["monitor", "keyboard", "mouse"];
+console.log(components);
+
+components.splice(0,3);  // option 1. or option @. just make empty array with the same name "let components = [];"
+console.log(components);
+
+
+// Test 8. make array books with three books and find how to add one more book but on first place
+
+let books = ["Book one", "Book two", "Book three"];
+console.log(books);
+
+books.unshift("Book four, now one"); //for this we can use Method call unshift array.unshift
+
+console.log(books);
