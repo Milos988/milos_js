@@ -60,7 +60,7 @@ else
 // Test is in file vezba.js
 
 // Else If
-	// els If is conditional statement same like if, always is after if, we can use if and alse, if else if and else or if and else if..we can have them more than one
+	// else If is conditional statement same like if, always is after if, we can use if and else, if else if and else or if and else if..we can have them more than one
 
 //let content = "video";
 
