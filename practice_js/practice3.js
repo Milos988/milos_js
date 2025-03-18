@@ -93,7 +93,7 @@ else{
 
 let num1 = 10;
 let num2 = 5;
-let operation ="divide";
+let operation = "divide";
 
 switch(operation) {
 	case "add":
@@ -111,4 +111,112 @@ switch(operation) {
 }
 
 
+/**
+ * 5. Login System with Role-Based Access
+ * Create a user object with properties:
+ *
+ * username (e.g., "admin")
+ * password (e.g., "1234")
+ * role (can be "admin", "editor", or "viewer")
+ * Write a conditional statement that:
+ *
+ * If the username is "admin" and password is "1234", check their role:
+ * "admin" → Print "Welcome, Admin! Full Access."
+ * "editor" → Print "Welcome, Editor! You can edit content."
+ * "viewer" → Print "Welcome, Viewer! Read-only access."
+ * Otherwise, print "Unknown role!"
+ * If username or password is incorrect, print "Login failed!"
+ **/
 
+let user = {
+	userName: "admin",
+	password: 1234,
+	role: "admin"
+}
+
+if(user.userName == "admin" && user.password == 1234)  { // Condition
+
+	switch(user.role) { // Switch method
+		case "admin": // switch condition
+			console.log("Welcome Admin! Full Access."); // print if is true
+			break;  // finish case comparison
+		case "editor":
+			console.log("Welcome Editor! You can edit.");
+			break;
+		case "viewer":
+			console.log("Welcome Viewer! Read only.");
+			break;
+		default:  // same like ann else
+			console.log("Unknown User!");
+	}
+
+}
+else{
+	console.log("Login failed!");
+}
+
+
+
+/**
+ * 6. Month Name to Season Converter
+ * Create a program that takes a month name (e.g., "March") and prints the corresponding season:
+ *
+ * "December", "January", "February" → Winter
+ * "March", "April", "May" → Spring
+ * "June", "July", "August" → Summer
+ * "September", "October", "November" → Autumn
+ * If the input is not a valid month, print "Invalid month".
+ * */
+
+let season = "September";
+
+switch(season) {
+	case "December":
+	case "January":
+	case "February":
+		console.log("Winter");
+		break;
+	case "March":
+	case "April":
+	case "May":
+		console.log("Spring");
+		break;
+	case "June":
+	case "July":
+	case "August":
+		console.log("Summer");
+		break;
+	case "September":
+	case "October":
+	case "November":
+		console.log("Autumn");
+		break;
+	default:
+		console.log("Invalid month");
+}
+
+/**
+ * 7. Day Type Checker
+ * Write a program that takes a day of the week and prints:
+ *
+ * "Weekend" for "Saturday" and "Sunday"
+ * "Workday" for "Monday" to "Friday"
+ * "Invalid Day" if it's not a valid day.
+ * Make sure your program is case-insensitive ("monday" should also work).
+ * */
+
+let dayChecker = "monday";
+dayChecker =  dayChecker.toLowerCase();
+
+switch(dayChecker) {
+	case "saturday":
+	case "sunday":
+		console.log("Weekend");
+		break;
+	case "monday":
+	case "tuesday":
+	case "wednesday":
+	case "thursday":
+	case "friday":
+		console.log("workday");
+}
