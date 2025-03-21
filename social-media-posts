@@ -1,0 +1,17 @@
+/**
+*JavaScript Tip of the Day: Checking for Vowels in a Name
+
+*Did you know that JavaScript treats strings like arrays? That means you can access individual characters using their index!
+
+*Here's a simple way to check if a name starts with a vowel:
+*/
+
+
+let name = "Admin";
+let vowels = ["a", "e", "i", "o", "u"];
+
+if (vowels.includes(name[0])) {
+    console.log("Your name starts with a vowel!");
+} else {
+    console.log("Your name does not start with a vowel.");
+}
